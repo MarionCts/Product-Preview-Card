@@ -171,7 +171,7 @@ h1{
 
 .cart-icon{
     max-height: 1.8rem;
-    margin-inline-end: var(--spacing-50);
+    margin-inline-end: var(--spacing-100);
 }
 
 @media (max-width: 600px){
