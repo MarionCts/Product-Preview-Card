@@ -1,52 +1,31 @@
-# Frontend Mentor - Product preview card component solution
-
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Frontend Mentor - Product Preview Card Component
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-
+  - [Live preview](#live-preview)
+  - [Solution retrospective](#solution-retrospective)
 
 ## Overview
 
 ### The challenge
 
-Users should be able to:
+The challenge was to build out a product preview card component and get it looking as close to the design as possible.
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
-
-### My solution screenshot
+### Screenshot
 
 ![](./screenshot.jpg)
 
+### Live preview
 
-### Links
-
-- Solution URL: [Check out my solution](https://github.com/MarionCts/Product-Preview-Card)
 - Live Site URL: [Live preview](https://marioncts.github.io/Product-Preview-Card/)
 
-## My process
+### Solution retrospective
 
-### Built with
+I wanted to make my code efficient and maintainable by defining global variables in the :root (such as fonts, colors, and spacing). It was really satisfying to write code faster this way.
 
-- Semantic HTML5 markup
-- CSS components
-- CSS custom properties
-- Flexbox
+For the product photo, I noticed in the mobile version of the Figma design that the image wasn’t properly centered and had been manually repositioned along the X and Y axes for aesthetic purposes. To match the design, I used the object-position CSS property, which allowed me to replicate the original look.
 
-
-### What I learned
-
-I experimented with margin-block and margin-inline (instead of margin-top/left/bottom/right) to get a more responsive design if the page were to be translated into a different language that requires different alignments (like reading from right to left for exemple). It was really satisfying to discover a new way to set spacings.
-
-### Continued development
-
-I want to get more confortable with responsive design.
+I would be grateful for any kind of feedback!
